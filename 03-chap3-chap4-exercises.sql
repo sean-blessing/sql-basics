@@ -10,7 +10,8 @@ SELECT VendorContactLName +', ' + VendorContactFName AS 'Full Name'
 --    OR VendorContactLName LIKE 'B%'
 --	OR VendorContactLName LIKE 'C%'
 --	OR VendorContactLName LIKE 'E%'
- WHERE VendorContactLName LIKE '[A-C]%'    OR VendorContactLName LIKE 'E%'
+ WHERE VendorContactLName LIKE '[A-C]%'
+    OR VendorContactLName LIKE 'E%'
  ORDER BY 'Full Name';
  
 -- Chap 4 Ex #1 (p. 132)
